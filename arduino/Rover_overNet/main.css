@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    z-index: 1;
+}
+
+.up-button{
+    position:relative;
+    transition: .5s ease;
+    width: 110px;
+    height: 50px;
+    max-width: 110px;
+    max-height: 50px;
+    left: 160px;
+    background-color: green;
+}
+.up-button:focus{
+    background-color: yellow;
+}
+
+.left-button{
+    position:relative;
+    transition: .5s ease;
+    width: 110px;
+    height: 50px;
+    max-width: 110px;
+    max-height: 50px;
+    top: 5px;
+    left: 25px;
+    background-color: green;
+}
+.left-button:focus{
+    background-color: yellow;
+}
+
+.stop-button{
+    position:relative;
+    transition: .5s ease;
+    width: 110px;
+    height: 50px;
+    max-width: 110px;
+    max-height: 50px;
+    top:5px;
+    left: 46px;
+    background-color: red;    
+}
+.stop-button:focus{
+    background-color: yellow;
+}
+
+.right-button{
+    position:relative;
+    transition: .5s ease;
+    width: 110px;
+    height: 50px;
+    max-width: 110px;
+    max-height: 50px;
+    top: 5px;
+    left: 65px;
+    background-color: green;
+}
+.right-button:focus{
+    background-color: yellow;
+}
+
+.down-button{
+    position:relative;
+    transition: .5s ease;
+    width: 120px;
+    height: 50px;
+    max-width: 110px;
+    max-height: 50px;
+    top: 10px;
+    left: 160px;
+    background-color: green;
+}
+.down-button:focus{
+    background-color: yellow;
+}
